@@ -1,0 +1,87 @@
+html {
+    background-color: seashell;
+    background-image: url("../img/backg.png");
+}
+
+h1 {
+    color: blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+h2 {
+    color: pink;
+    font-size: 24px;
+    font-family: cursive;
+    text-align: center;
+    text-transform: none;
+    line-height: normal;
+    font-weight: 600;
+}
+
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: hotpink;
+}
+
+#bio-header {
+    color: lightcoral
+}
+
+#songheader {
+    color: coral
+}
+
+.content {
+    color: orchid;
+    font-size: 13px;
+    font-family: cursive;
+    text-align: justify;
+    text-transform: none;
+    line-height: normal;
+    font-weight: 100;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.img-div {
+    background-color: lightpink;
+    text-align: center;
+}
+
+.light{
+    background-color: rgb(255, 227, 231);
+}
+
+img {
+    width: 200px;
+    margin: 10px;
+    box-shadow: 3px 3px 7px black;
+}
+
+body div.login-div {
+    padding: 15px;
+    border: solid 1px #c2c2c2;
+    box-shadow: 0 0 2px black;
+    display: inline-block;
+
+}
+
+.login-div input {
+    display: block;
+    margin-bottom: 7px;
+
+}
+
+.login-div input[type="email"] {
+    border: solid 1px violet
+}
+
+.login-div input[type="password"] {
+    border: solid 1px hotpink
+}
+
+.login-div button:hover{
+    box-shadow: 0 0 3px hotpink;
+}

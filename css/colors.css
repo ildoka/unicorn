@@ -1,0 +1,11 @@
+html {
+    background-color: seashell;
+    background-image: url("../img/backg.png");
+}
+
+#colorDiv {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: saddlebrown;
+}
